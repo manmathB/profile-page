@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>manmathb's profile</title>
+    </head>
+    <style>
+        .border{
+            border-color: white;
+            border-width:10px;
+            border-style: solid;
+            border-radius: 50%;
+        }
+        #left {
+        /* padding: 2px; */
+        float:left;
+        width: 50%;
+        background-color: gold;
+        height: 80px;
+        }
+
+		#right {
+        float:left;
+        width: 16%;
+        height: 80px;
+        padding-top: 20px;
+      }
+    </style>
+    <body>
+        <div style="background: gold; height: 80px; position: fixed; top: 0px; width: 100%;">
+            <div id="left" style = "color: rgb(255, 255, 255); font-size: 50px; font-family: monospace;"> 
+                Manmath Bagali
+            </div>
+            <a id="right" href="#about" style="font-size: 20px; text-decoration: none;">About</a>
+            <a id="right" href="#projects" style="font-size: 20px; text-decoration: none;">Projects</a>
+            <a id="right" href="#contact" style="font-size: 20px; text-decoration: none;">contact</a>
+        </div>
+        
+        <div style="background-color: black; margin-top: 80px;">
+            <div style="padding-top: 20px;">
+                <img src="./pp1.jpg" alt="just a picture of Manmath Bagali" width="250px" class="border" style="margin-left: auto; margin-right: auto; display: block;">
+                <!--How to align image in the centre? I used the display attribute, but didn't understand how it worked-->
+                <!--how to move image lower, when i tried it, only image is moving but border stays same-->
+                <!--i applied padding to div tag itself. It worked.-->
+            </div>
+            <div style="color: cornflowerblue; padding-top: 15px; font-size: 30px; font-family: 'Times New Roman', Times, serif; text-align: center;">
+                Manmath Bagali<br> 
+                <div style="font-size: 25px; margin-top: 20px; padding-bottom: 20px;">A noob developer</div>
+            </div>
+        </div>
+        <div id = "about" style="font-size: 25px; text-align: center; padding-top: 20px; padding-bottom: 20px; background-color: burlywood;">
+            <b>About</b>
+            <!--I want to bring this little bit down to make space between black background on previous element and "about" text, how to do that?-->
+            <!--I think, i got it. I used padding, are there any better options? -->
+        </div>
+        <div style="font-size: 20px; padding-left: 20px; padding-bottom: 20px; background-color: burlywood;">I am learning front-end developement under the mentorship of Ketan Srivastav.</div>
+        <div id = "projects" style="background-color: brown; text-align: center; padding-top: 30px; margin-bottom: 0px;">
+            <b style="font-size: 20px;"> Projects</b>
+            <ul>
+                <li style="padding-bottom: 20px;">my own profile page</li>
+            </ul>
+        </div>
+        <div id="contact" style="text-align: center; background-color: steelblue; margin: 0px;">
+            <b style="font-size: 20px;">Contact me</b><br>
+            You can contact me on my mail id: manmathbagali@gmail.com
+        </div>
+    </body>
+</html>
